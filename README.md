@@ -1,9 +1,10 @@
-# Cucumber + Selenium + TestNG + Spring Boot POC (multi-thread)
+# Cucumber + Selenium + TestNG + Spring Boot + Spring JPA + Hibernate POC (single-thread + multi-thread)
 
-POC implemented with the latest versions of Cucumber + Selenium + TestNG + Spring Boot + JDK (21). It allows to make
-automated tests for a web application (in this case the target is my portfolio https://andre-i.eu).
-See also the [single-thread](https://github.com/goto-eof/andre-i-test-selenium-cucumber-spring-boot-single-thread)
-version.
+POC implemented with the latest versions of Cucumber + Selenium + TestNG + Spring Boot + Spring JPA + Hibernate +
+JDK (21) - single-thread + multi-thread. It allows to make automated tests for a web application (in this case the
+target is my portfolio https://andre-i.eu). See also
+the [single-thread](https://github.com/goto-eof/andre-i-test-selenium-cucumber-spring-boot-single-thread)
+and [multi-thread](https://github.com/goto-eof/andre-i-test-selenium-cucumber-spring-boot-multi-thread) versions.
 
 # Configuration
 
