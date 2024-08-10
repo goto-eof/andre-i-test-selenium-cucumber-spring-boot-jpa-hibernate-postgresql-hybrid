@@ -1,0 +1,24 @@
+logging.config: ./config/log4j2.xml
+com.andreidodu.test.application.url: https://andre-i.eu
+# can be chrome or firefox
+com.andreidodu.test.browser: chrome
+# can be linux or windows
+com.andreidodu.test.os: linux
+com.andreidodu.test.filename.web-driver.firefox: ./config/webdriver/${com.andreidodu.test.os}/geckodriver
+com.andreidodu.test.filename.web-driver.chrome: ./config/webdriver/${com.andreidodu.test.os}/chromedriver
+
+spring:
+  application:
+    name: andre-i-test
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5499/test
+    username: postgres
+    password: postgres
+    testOnBorrow: true
+    timeBetweenEvictionRunsMillis: 60000
+    validationQuery: SELECT 1
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
