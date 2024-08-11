@@ -10,7 +10,8 @@ and [multi-thread](https://github.com/goto-eof/andre-i-test-selenium-cucumber-sp
 
 This application requires a table, called el_tag, for which i did not commited the DDL (I need more time). But on my
 notebook it works
-fine :P But the project configuration is fine, trust me B)
+fine :P 
+The project configuration is fine, trust me B)
 
 # Configuration
 
