@@ -9,9 +9,7 @@ and [multi-thread](https://github.com/goto-eof/andre-i-test-selenium-cucumber-sp
 # It will not work XD
 
 This application requires a table, called el_tag, for which i did not commited the DDL (I need more time). But on my
-notebook it works
-fine :P 
-The project configuration is fine, trust me B)
+notebook it works :P The project configuration is fine, trust me B)
 
 # Configuration
 
