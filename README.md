@@ -34,7 +34,13 @@ Run the following command from the root of the project:
  ```
 
 # Test flow
+
 ![test flow](documentation/images/test-flow.jpg)
+
+# Video
+
+Selenium in action:
+[![selenium in action](https://img.youtube.com/vi/0-qYpUTGrhw/0.jpg)](https://www.youtube.com/watch?v=0-qYpUTGrhw)
 
 # Moreover
 
