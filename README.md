@@ -33,6 +33,9 @@ Run the following command from the root of the project:
   ./gradlew clean test
  ```
 
+# Test flow
+![test flow](documentation/images/test-flow.jpg)
+
 # Moreover
 
 - this application was developed on Linux and tested on Linux Ubuntu 24.04 LTS (and should work also on Windows 11)
