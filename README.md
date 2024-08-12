@@ -8,6 +8,12 @@ and [multi-thread](https://github.com/goto-eof/andre-i-test-selenium-cucumber-sp
 
 # Configuration
 
+Run docker container:
+
+```
+sudo docker compose up -d
+```
+
 Edit `config.properties` by choosing your OS and browser:
 
 ```
