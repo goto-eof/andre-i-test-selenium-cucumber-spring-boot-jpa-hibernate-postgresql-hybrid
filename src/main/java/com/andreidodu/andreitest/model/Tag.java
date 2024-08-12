@@ -9,22 +9,14 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 @Entity
 @Getter
 @Setter
-@Table(name = "el_tag")
+@Table(name = "tag")
 @EntityListeners(AuditingEntityListener.class)
 public class Tag extends ModelCommon {
     @Id
-    @GeneratedValue(generator = "el_tag_seq", strategy = GenerationType.SEQUENCE)
-    @SequenceGenerator(name = "el_tag_seq", sequenceName = "el_tag_seq", allocationSize = 50)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "name", length = 100)
     private String name;
 
-    @Override
-    public String toString() {
-        return "Tag{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }

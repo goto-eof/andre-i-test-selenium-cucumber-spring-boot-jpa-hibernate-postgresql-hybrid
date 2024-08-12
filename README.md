@@ -6,11 +6,6 @@ target is my portfolio https://andre-i.eu). See also
 the [single-thread](https://github.com/goto-eof/andre-i-test-selenium-cucumber-spring-boot-single-thread)
 and [multi-thread](https://github.com/goto-eof/andre-i-test-selenium-cucumber-spring-boot-multi-thread) versions.
 
-# It will not work XD
-
-This application requires a table, called el_tag, for which i did not commited the DDL (I need more time). But on my
-notebook it works fine :P
-
 # Configuration
 
 Edit `config.properties` by choosing your OS and browser:
