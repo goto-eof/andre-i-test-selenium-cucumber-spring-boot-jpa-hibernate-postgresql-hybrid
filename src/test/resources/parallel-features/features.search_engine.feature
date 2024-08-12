@@ -7,6 +7,9 @@ Feature: Testing search function
     Examples:
       | project_name            | result                               |
       | it does not exists      |                                      |
+      | it does not exists 2    |                                      |
+      | it does not exists 3    |                                      |
+      | it does not exists 4    |                                      |
       | ares guard              | Ares Guard (Java)                    |
       | europea library client  | Europea Library Client (TypeScript)  |
       | europea library server  | Europea Library Server (Java)        |
