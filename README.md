@@ -8,7 +8,7 @@ and [multi-thread](https://github.com/goto-eof/andre-i-test-selenium-cucumber-sp
 
 # Configuration
 
-Run docker container:
+Run docker container from `docker` directory:
 
 ```
 sudo docker compose up -d
