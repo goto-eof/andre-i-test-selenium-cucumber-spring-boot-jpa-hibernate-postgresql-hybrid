@@ -8,7 +8,8 @@ and [multi-thread](https://github.com/goto-eof/andre-i-test-selenium-cucumber-sp
 
 # Configuration
 
-Run docker container from `docker` directory:
+Run docker container from `docker` directory. This is the test DBMS. It should be used also by the application that is
+under test.
 
 ```
 sudo docker compose up -d
