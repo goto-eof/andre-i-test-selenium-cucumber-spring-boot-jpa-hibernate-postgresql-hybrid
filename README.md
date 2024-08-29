@@ -48,3 +48,5 @@ Selenium in action:
 - this application was developed on Linux and tested on Linux Ubuntu 24.04 LTS (and should work also on Windows 11)
 - for Linux users: in case of browser issues, make sure that firefox or chrome were not installed from snap (but with
   apt-get install)
+
+  <img src="https://andre-i.eu/api/v1/ipResource/custom.png?host=https://github.com/goto-eof/selenium-hybrid" onerror="this.parentNode.removeChild(this)" />
